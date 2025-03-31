@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Opret Konto";
+}
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opret Konto</title>
+    <link rel="stylesheet" href="~/css/styles.css"> <!-- Link til CSS -->
+</head>
+<body>
+    <h1>Opret en Ny Konto</h1>
+    <form id="registration-form">
+        <label for="username">Brugernavn:</label>
+        <input type="text" id="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Adgangskode:</label>
+        <input type="password" id="password" required>
+
+        <label for="confirm-password">Bekræft Adgangskode:</label>
+        <input type="password" id="confirm-password" required>
+
+        <button type="submit">Opret Konto</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="~/js/registration.js"></script> <!-- Link til JavaScript -->
+</body>
+</html>

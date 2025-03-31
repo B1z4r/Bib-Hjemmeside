@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Log Ind";
+}
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Ind</title>
+    <link rel="stylesheet" href="~/css/styles.css"> <!-- Link til CSS -->
+</head>
+<body>
+    <h1>Log Ind</h1>
+    <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Adgangskode:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Log Ind</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="~/js/login.js"></script> <!-- Link til JavaScript -->
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Librabry ting ting.props" />
+</Project>
